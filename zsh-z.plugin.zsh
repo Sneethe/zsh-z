@@ -56,7 +56,7 @@
 #   ZSHZ_CMD -> name of command (default: z)
 #   ZSHZ_COMPLETION -> completion method (default: 'frecent'; 'legacy' for
 #     alphabetic sorting)
-#   ZSHZ_DATA -> name of datafile (default: ~/.z)
+#   ZSHZ_DATA -> name of datafile (default: $ZDOTDIR/.z else ~/.z)
 #   ZSHZ_EXCLUDE_DIRS -> array of directories to exclude from your database
 #     (default: empty)
 #   ZSHZ_KEEP_DIRS -> array of directories that should not be removed from the
